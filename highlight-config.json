@@ -1,0 +1,127 @@
+{
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+            "unresolvedReference": {
+                "foreground": "#c93f3f",
+                "bold": true
+            },
+            "*.mutable": {
+                "underline": true
+            },
+            "*.static": {
+                "italic": true
+            },
+            "keyword.unsafe": {
+                "bold": true,
+                "foreground": "#cc5500"
+            },
+            "function.unsafe": {
+                "bold": true,
+                "foreground": "#ff5500"
+            },
+            "function.declaration.unsafe": {
+                "foreground": "#ffc66d",
+                "bold": false
+            },
+            "operator.unsafe": {
+                "bold": true,
+                "underline": true,
+                "foreground": "#ff5500"
+            },
+            "*.documentation": {
+                "foreground": "#629755",
+                "italic": true
+            },
+            "*.injected": {
+                "italic": true
+            },
+            "generic.injected": {
+                "foreground": "#b0b0b0",
+                "italic": true
+            }
+        },
+        "[Darcula]": {
+            "enabled": true,
+            "rules": {
+                "macro": "#4eade5",
+                "member": "#9876aa",
+                "namespace": "#a9b7c6"
+            }
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[Darcula]": {
+            "comments": "#808080",
+            "functions": "#ffc66d",
+            "keywords": "#cc7832",
+            "numbers": "#6897bb",
+            "strings": "#6a8759",
+            "types": "#a9b7c6",
+            "textMateRules": [
+                {
+                    "scope": "source",
+                    "settings": {
+                        "foreground": "#a9b7c6"
+                    }
+                },
+                {
+                    "scope": "entity.name.type.interface",
+                    "settings": {
+                        "foreground": "#549680"
+                    }
+                },
+                {
+                    "scope": [
+                        "entity.name.type.parameter",
+                        "lifetime",
+                        "entity.name.lifetime.rust"
+                    ],
+                    "settings": {
+                        "foreground": "#20999d"
+                    }
+                },
+                {
+                    "scope": "variable.other.enummember",
+                    "settings": {
+                        "foreground": "#9876aa"
+                    }
+                },
+                {
+                    "scope": "meta.attribute.rust",
+                    "settings": {
+                        "foreground": "#bbb529"
+                    }
+                },
+                {
+                    "scope": [
+                        "storage.type.struct",
+                        "variable"
+                    ],
+                    "settings": {
+                        "foreground": "#a9b7c6"
+                    }
+                },
+                {
+                    "scope": "support.type.primitive",
+                    "settings": {
+                        "foreground": "#cc7832"
+                    }
+                },
+                {
+                    "scope": "comment.line.double-slash",
+                    "settings": {
+                        "foreground": "#808080"
+                    }
+                },
+                {
+                    "scope": "comment.line.documentation",
+                    "settings": {
+                        "foreground": "#629755",
+                        "fontStyle": "italic"
+                    }
+                }
+            ]
+        }
+    }
+}
